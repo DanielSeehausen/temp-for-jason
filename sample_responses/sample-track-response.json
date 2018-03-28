@@ -1,0 +1,1681 @@
+{
+  "id": 25783,
+  "title": "Module 4 – Web Development Immersive 2.0",
+  "depth": 0,
+  "published_batch_ids": [],
+  "track_id": 25783,
+  "children": [
+    {
+      "id": 27733,
+      "title": "Discussion Questions",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 31058,
+          "title": "Mod4: Useful tools for React",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 31059,
+              "title": "Some Useful Tools for Writing React",
+              "depth": 3,
+              "published_batch_ids": [
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/some-useful-tools-for-writing-react"
+            }
+          ]
+        },
+        {
+          "id": 27734,
+          "title": "M4-DQ1: Intro to Props and State",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 27735,
+              "title": "M4-DQ1: Props And State",
+              "depth": 3,
+              "published_batch_ids": [
+                477,
+                484,
+                407,
+                489,
+                491,
+                493,
+                494,
+                499,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/props-and-state-discussion-questions"
+            }
+          ]
+        },
+        {
+          "id": 29885,
+          "title": "M4-DQ2: Passing Props, Changing State, and Exploring Hogs",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 29886,
+              "title": "M4-DQ2: Passing Props, Setting State, Exploring Hogs",
+              "depth": 3,
+              "published_batch_ids": [
+                499,
+                407,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/hog-props-intro"
+            }
+          ]
+        },
+        {
+          "id": 29973,
+          "title": "M4-DQ3: Conditional Rendering",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 29974,
+              "title": "M4-DQ3: Conditional Rendering",
+              "depth": 3,
+              "published_batch_ids": [
+                501,
+                500,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/M4-DQ3-Conditional-Rendering"
+            }
+          ]
+        },
+        {
+          "id": 29887,
+          "title": "M4-DQ4: React Component Tree Information Flow: Passing Callbacks to Comrade Hogs",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 29888,
+              "title": "M4-DQ4: React Component Tree Information Flow: Passing Callbacks to Comrade Hogs",
+              "depth": 3,
+              "published_batch_ids": [
+                499,
+                500,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/M4-DQ3-Passing-Callbacks-to-Comrade-Hogs-in-React"
+            }
+          ]
+        },
+        {
+          "id": 29976,
+          "title": "M4-DQ5:Selection and Insertion Sort",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 29977,
+              "title": "M4 Dq5 Observing Selection And Insertion Sort",
+              "depth": 3,
+              "published_batch_ids": [
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/M4-DQ5-Observing-Selection-and-Insertion-Sort"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25784,
+      "title": "Introduction to React",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 25785,
+          "title": "What is React? ",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 25786,
+              "title": "Virtual DOM",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/javascript-virtual-dom"
+            },
+            {
+              "id": 25787,
+              "title": "Declarative Programming",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-declarative-programming"
+            },
+            {
+              "id": 25788,
+              "title": "createElement",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-create-element"
+            },
+            {
+              "id": 25789,
+              "title": "createElement Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-create-element-lab"
+            }
+          ]
+        },
+        {
+          "id": 25790,
+          "title": "Components, JSX, and Rendering",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 25791,
+              "title": "Components",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-components"
+            },
+            {
+              "id": 25792,
+              "title": "Components Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-components-lab"
+            },
+            {
+              "id": 25793,
+              "title": "JSX",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-jsx"
+            },
+            {
+              "id": 25794,
+              "title": "JSX Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-jsx-lab"
+            },
+            {
+              "id": 25795,
+              "title": "Babel Plugins",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-babel-plugins"
+            },
+            {
+              "id": 25796,
+              "title": "Render Quiz",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-render-must-not-have-side-effects"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26141,
+      "title": "Props versus State",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 26142,
+          "title": "Props",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26143,
+              "title": "Props",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-props"
+            },
+            {
+              "id": 26144,
+              "title": "Props Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-props-lab"
+            },
+            {
+              "id": 26145,
+              "title": "propTypes",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-prop-types"
+            },
+            {
+              "id": 26146,
+              "title": "propTypes Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-prop-types-lab"
+            }
+          ]
+        },
+        {
+          "id": 26149,
+          "title": "State and Events",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26150,
+              "title": "Initial State",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-initial-state"
+            },
+            {
+              "id": 26151,
+              "title": "Initial State Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-initial-state-lab"
+            },
+            {
+              "id": 26152,
+              "title": "Event System",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-event-system"
+            },
+            {
+              "id": 26153,
+              "title": "Event System Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-event-system-lab"
+            },
+            {
+              "id": 26154,
+              "title": "Events In Detail",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-events-in-detail"
+            },
+            {
+              "id": 26155,
+              "title": "Events In Detail Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-events-in-detail-lab"
+            },
+            {
+              "id": 26156,
+              "title": "Updating State",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-updating-state"
+            },
+            {
+              "id": 26157,
+              "title": "Updating State Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-updating-state-lab"
+            },
+            {
+              "id": 26158,
+              "title": "Forms",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-forms"
+            },
+            {
+              "id": 26159,
+              "title": "Forms Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-forms-lab"
+            },
+            {
+              "id": 26160,
+              "title": "Props And State Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                486,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-props-and-state-lab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26162,
+      "title": "Presentational versus Container Components",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 26171,
+          "title": "Container Components",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26172,
+              "title": "Container Components",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-container-components"
+            },
+            {
+              "id": 26173,
+              "title": "Container Components Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-container-components-lab"
+            }
+          ]
+        },
+        {
+          "id": 26174,
+          "title": "Presentational Components",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26175,
+              "title": "Presentation Components",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-presentation-components"
+            },
+            {
+              "id": 26176,
+              "title": "Presentation Components Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-presentation-components-lab"
+            },
+            {
+              "id": 26177,
+              "title": "Props Props Props",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/props-props-props-props-props-props"
+            },
+            {
+              "id": 26178,
+              "title": "Passing Props Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-passing-props-lab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26161,
+      "title": "Component Lifecycle",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 26163,
+          "title": "Mounting",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26164,
+              "title": "Component Lifecycle",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-component-lifecycle"
+            },
+            {
+              "id": 26165,
+              "title": "Component Mounting And Unmounting",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-component-mounting-and-unmounting"
+            },
+            {
+              "id": 26166,
+              "title": "Component Mounting And Unmounting Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-component-mounting-and-unmounting-lab"
+            }
+          ]
+        },
+        {
+          "id": 26167,
+          "title": "Rendering and Updating",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26168,
+              "title": "Rendering",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-rendering"
+            },
+            {
+              "id": 26169,
+              "title": "Rendering Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-rendering-lab"
+            },
+            {
+              "id": 26170,
+              "title": "Component Lifecycle Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-component-lifecycle-lab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27736,
+      "title": "Async React",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 27737,
+          "title": "Async React",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 27738,
+              "title": "React Async Gif Search Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                477,
+                484,
+                407,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-async-gif-search-lab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26179,
+      "title": "Client-side Routing",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 26180,
+          "title": "React Router",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26181,
+              "title": "React Introduction To React Router",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-introduction-to-react-router"
+            },
+            {
+              "id": 26182,
+              "title": "React Components As Routes",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-components-as-routes"
+            },
+            {
+              "id": 26183,
+              "title": "React Components As Routes Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-components-as-routes-lab"
+            },
+            {
+              "id": 26187,
+              "title": "React This Props Children",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-this-props-children"
+            },
+            {
+              "id": 26188,
+              "title": "React This Props Children Lab",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                477,
+                484,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-this-props-children-lab"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27908,
+      "title": "Auth",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 27909,
+          "title": "Client Side Auth",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 27910,
+              "title": "Boozer Auth",
+              "depth": 3,
+              "published_batch_ids": [
+                484,
+                489
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/boozer-auth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27798,
+      "title": "Project Mode",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 27969,
+          "title": "Week One React",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 27970,
+              "title": "Hogwarts",
+              "depth": 3,
+              "published_batch_ids": [
+                485,
+                489,
+                490,
+                491,
+                492,
+                407,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502,
+                503
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/hogwarts"
+            }
+          ]
+        },
+        {
+          "id": 27977,
+          "title": "Week Two React",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 28000,
+              "title": "Boozer React",
+              "depth": 3,
+              "published_batch_ids": [
+                489,
+                490,
+                499,
+                501
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/boozer-react"
+            },
+            {
+              "id": 28001,
+              "title": "Boozer Api",
+              "depth": 3,
+              "published_batch_ids": [
+                489,
+                490,
+                499,
+                501
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/boozer-api-web-0716"
+            },
+            {
+              "id": 27980,
+              "title": "React Review Session",
+              "depth": 3,
+              "published_batch_ids": [
+                485
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-router-v4-lecture"
+            },
+            {
+              "id": 27989,
+              "title": "React Fetch Post Review",
+              "depth": 3,
+              "published_batch_ids": [
+                485,
+                499
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-fetch-post-review"
+            },
+            {
+              "id": 27978,
+              "title": "The Hog Dimension",
+              "depth": 3,
+              "published_batch_ids": [
+                485
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/the-hog-dimension"
+            }
+          ]
+        },
+        {
+          "id": 27799,
+          "title": "React Project",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 27800,
+              "title": "React Project Requirements",
+              "depth": 3,
+              "published_batch_ids": [
+                477,
+                484,
+                407,
+                485,
+                489,
+                490,
+                491,
+                492,
+                493,
+                494,
+                499,
+                500,
+                501,
+                502
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/react-project-requirements"
+            }
+          ]
+        },
+        {
+          "id": 27801,
+          "title": "Module Five Final Project",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 27802,
+              "title": "Module Five Requirements",
+              "depth": 3,
+              "published_batch_ids": [
+                477,
+                407,
+                484,
+                493
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/module-five-requirements"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31299,
+      "title": "MERN",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 31300,
+          "title": "MERN",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 31301,
+              "title": "Mern Lecture",
+              "depth": 3,
+              "published_batch_ids": [
+                407,
+                501
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/mern_lecture"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26935,
+      "title": "Code Challenges",
+      "depth": 1,
+      "published_batch_ids": [],
+      "track_id": 25783,
+      "children": [
+        {
+          "id": 26938,
+          "title": "Frontend",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26939,
+              "title": "Immersive React Code Challenge Frontend",
+              "depth": 3,
+              "published_batch_ids": [
+                486,
+                477,
+                484,
+                485,
+                489,
+                407
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/immersive-assessment-react-frontend"
+            },
+            {
+              "id": 26940,
+              "title": "Immersive React Code Challenge Frontend Final",
+              "depth": 3,
+              "published_batch_ids": [
+                486,
+                477,
+                484,
+                485,
+                407
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/immersive-assessment-react-frontend-final"
+            }
+          ]
+        },
+        {
+          "id": 26936,
+          "title": "Backend",
+          "depth": 2,
+          "published_batch_ids": [],
+          "track_id": 25783,
+          "children": [
+            {
+              "id": 26937,
+              "title": "Immersive React Code Challenge Backend",
+              "depth": 3,
+              "published_batch_ids": [
+                486
+              ],
+              "track_id": 25783,
+              "children": [],
+              "github_url": "//github.com/learn-co-curriculum/immersive-assessment-react-backend"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

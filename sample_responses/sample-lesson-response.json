@@ -1,0 +1,131 @@
+{
+  "content_type": "Lab",
+  "created_at": "2017-02-24T16:35:01.116-05:00",
+  "parent_title": "An Intro to Hashes",
+  "canonical_id": 7436,
+  "child_order": [],
+  "depth": 3,
+  "github_url": "//github.com/learn-co-curriculum/my-first-hash",
+  "has_lab": true,
+  "id": 25449,
+  "parent_id": 25447,
+  "published_batch_ids": [
+    477,
+    484,
+    407,
+    486,
+    489,
+    491,
+    492,
+    493,
+    494,
+    499,
+    500,
+    501,
+    502,
+    512
+  ],
+  "readme_markdown": "# My First Hash\n\n## Objectives\n\n1. Create hashes using the literal constructor.\n2. Retrieve data from hashes using the bracket method.\n3. Add data to hashes using the \"bracket-equals\" method.\n\n## Instructions \n\n### Challenge I: Instantiating Hashes\n\nIn the `my_hash` method, use the literal constructor to set a variable called `your_hash` equal to a hash with key/value pairs of your choice. \n\n_Note: The variable name you use within the `my_hash` method does not actually matter. All that matters is that the return value of `my_hash` is a valid hash. The return values of a method is always the last line of code a method executes._\n\nRemember, key/value pairs are associative. It doesn't make sense to have a key/value pair of `\"my_name\" => 78`. It *does* make sense to have a key/value pair of `\"my_name\" => \"Herman Melville\"` (if you happen to be that author, of course). \n\n### Challenge II: Hash with Data\n\nIn the `shipping_manifest` method, set a variable called `the_manifest` equal to a hash.\n\nFill that hash with key/value pairs that describe the following information and then return the hash: \n\nInventory | Quantity\n------------ | -------------\nwhale bone corsets | 5\nporcelain vases | 2\noil paintings | 3\n\nYour hash should have the following key/value pairs:\n\n```\n\"whale bone corsets\" => 5\n\"porcelain vases\" => 2\n\"oil paintings\" => 3\n```\n\n### Challenge III: Retrieving Data \n\nIn the `retrieval` method we've given you the `shipping_manifest` hash that you built out in the previous challenge. Use the `[]` hash method to look up and return the value of the `\"oil paintings\"` key of the `shipping_manifest` hash.\n \nFor example, if we have the following hash: \n\n```ruby\nhash = {\"key1\" => \"value1\"}\n```\n\nWe can look up and return the value of `\"key1\"` like this: \n\n```ruby\nhash[\"key1\"]\n```\n\n### Challenge IV: Adding Data\n\nIn the `adding` method, we've once again given you the `shipping_manifest` hash. Use the `[]=` method to add the following data to the hash:\n\nInventory | Quantity\n------------ | -------------\nmuskets | 2\ngun powder | 4\n\nIn the end your hash should have all of the following keys and values:\n\n```\n\"whale bone corsets\" => 5\n\"porcelain vases\" => 2\n\"oil paintings\" => 3\n\"muskets\" => 2\n\"gun powder\" => 4\n```\n\nThis method must return the `shipping_manifest` hash. Make sure that the last line of the method is a reference to the variable `shipping_manifest`.\n\nRemember that the return value of using the `[]=` method is the value of the key/value pair you added. We need our `adding` method to return the `shipping_manifest`. Here's a refresher on the `[]=` method: \n\n```ruby \nhash = {\"key1\" => \"value1\"}\nhash[\"key2\"] = \"value2\"\n#=> \"value2\"\n\nhash\n#=> {\"key1\" => \"value1\", \"key2\" => \"value2\"}\n```\n\nHope you had fun hashing out the ship's inventory!\n",
+  "readme_markdown_as_html": "<h2 id=\"objectives\">Objectives</h2>\n\n<ol>\n<li>Create hashes using the literal constructor.</li>\n<li>Retrieve data from hashes using the bracket method.</li>\n<li>Add data to hashes using the &quot;bracket-equals&quot; method.</li>\n</ol>\n\n<h2 id=\"instructions\">Instructions</h2>\n\n<h3 id=\"challenge-i:-instantiating-hashes\">Challenge I: Instantiating Hashes</h3>\n\n<p>In the <code>my_hash</code> method, use the literal constructor to set a variable called <code>your_hash</code> equal to a hash with key/value pairs of your choice. </p>\n\n<p><em>Note: The variable name you use within the <code>my_hash</code> method does not actually matter. All that matters is that the return value of `my</em>hash` is a valid hash. The return values of a method is always the last line of code a method executes._</p>\n\n<p>Remember, key/value pairs are associative. It doesn&#39;t make sense to have a key/value pair of <code>&quot;my_name&quot; =&gt; 78</code>. It <em>does</em> make sense to have a key/value pair of <code>&quot;my_name&quot; =&gt; &quot;Herman Melville&quot;</code> (if you happen to be that author, of course). </p>\n\n<h3 id=\"challenge-ii:-hash-with-data\">Challenge II: Hash with Data</h3>\n\n<p>In the <code>shipping_manifest</code> method, set a variable called <code>the_manifest</code> equal to a hash.</p>\n\n<p>Fill that hash with key/value pairs that describe the following information and then return the hash: </p>\n\n<table><thead>\n<tr>\n<th>Inventory</th>\n<th>Quantity</th>\n</tr>\n</thead><tbody>\n<tr>\n<td>whale bone corsets</td>\n<td>5</td>\n</tr>\n<tr>\n<td>porcelain vases</td>\n<td>2</td>\n</tr>\n<tr>\n<td>oil paintings</td>\n<td>3</td>\n</tr>\n</tbody></table>\n\n<p>Your hash should have the following key/value pairs:</p>\n<pre class=\"highlight plaintext\"><code>\"whale bone corsets\" =&gt; 5\n\"porcelain vases\" =&gt; 2\n\"oil paintings\" =&gt; 3\n</code></pre>\n<h3 id=\"challenge-iii:-retrieving-data\">Challenge III: Retrieving Data</h3>\n\n<p>In the <code>retrieval</code> method we&#39;ve given you the <code>shipping_manifest</code> hash that you built out in the previous challenge. Use the <code>[]</code> hash method to look up and return the value of the <code>&quot;oil paintings&quot;</code> key of the <code>shipping_manifest</code> hash.</p>\n\n<p>For example, if we have the following hash: </p>\n<pre class=\"highlight ruby\"><code><span class=\"nb\">hash</span> <span class=\"o\">=</span> <span class=\"p\">{</span><span class=\"s2\">\"key1\"</span> <span class=\"o\">=&gt;</span> <span class=\"s2\">\"value1\"</span><span class=\"p\">}</span>\n</code></pre>\n<p>We can look up and return the value of <code>&quot;key1&quot;</code> like this: </p>\n<pre class=\"highlight ruby\"><code><span class=\"nb\">hash</span><span class=\"p\">[</span><span class=\"s2\">\"key1\"</span><span class=\"p\">]</span>\n</code></pre>\n<h3 id=\"challenge-iv:-adding-data\">Challenge IV: Adding Data</h3>\n\n<p>In the <code>adding</code> method, we&#39;ve once again given you the <code>shipping_manifest</code> hash. Use the <code>[]=</code> method to add the following data to the hash:</p>\n\n<table><thead>\n<tr>\n<th>Inventory</th>\n<th>Quantity</th>\n</tr>\n</thead><tbody>\n<tr>\n<td>muskets</td>\n<td>2</td>\n</tr>\n<tr>\n<td>gun powder</td>\n<td>4</td>\n</tr>\n</tbody></table>\n\n<p>In the end your hash should have all of the following keys and values:</p>\n<pre class=\"highlight plaintext\"><code>\"whale bone corsets\" =&gt; 5\n\"porcelain vases\" =&gt; 2\n\"oil paintings\" =&gt; 3\n\"muskets\" =&gt; 2\n\"gun powder\" =&gt; 4\n</code></pre>\n<p>This method must return the <code>shipping_manifest</code> hash. Make sure that the last line of the method is a reference to the variable <code>shipping_manifest</code>.</p>\n\n<p>Remember that the return value of using the <code>[]=</code> method is the value of the key/value pair you added. We need our <code>adding</code> method to return the <code>shipping_manifest</code>. Here&#39;s a refresher on the <code>[]=</code> method: </p>\n<pre class=\"highlight ruby\"><code><span class=\"nb\">hash</span> <span class=\"o\">=</span> <span class=\"p\">{</span><span class=\"s2\">\"key1\"</span> <span class=\"o\">=&gt;</span> <span class=\"s2\">\"value1\"</span><span class=\"p\">}</span>\n<span class=\"nb\">hash</span><span class=\"p\">[</span><span class=\"s2\">\"key2\"</span><span class=\"p\">]</span> <span class=\"o\">=</span> <span class=\"s2\">\"value2\"</span>\n<span class=\"c1\">#=&gt; \"value2\"</span>\n\n<span class=\"nb\">hash</span>\n<span class=\"c1\">#=&gt; {\"key1\" =&gt; \"value1\", \"key2\" =&gt; \"value2\"}</span>\n</code></pre>\n<p>Hope you had fun hashing out the ship&#39;s inventory!</p>\n",
+  "slug": "first-hash",
+  "title": "First Hash",
+  "track_id": 25054,
+  "track_title": "Module 1 – Web Development Immersive 2.0",
+  "type": "Lesson",
+  "updated_at": "2018-01-26T14:40:25.285-05:00",
+  "is_readme": false,
+  "canonical_name": "my-first-hash",
+  "completed_progresses_count": 2310,
+  "open_issue_count": 0,
+  "open_pr_count": 0,
+  "tracks": [
+    {
+      "id": 11897,
+      "title": "Teacher Training - Web Development Fundamentals"
+    },
+    {
+      "id": 8303,
+      "title": "QA Testing Track"
+    },
+    {
+      "id": 5309,
+      "title": "Web Development with Ruby on Rails"
+    },
+    {
+      "id": 13443,
+      "title": "Web Development Immersive 2016"
+    },
+    {
+      "id": 9683,
+      "title": "Web Development with Ruby on Rails - 2015"
+    },
+    {
+      "id": 11095,
+      "title": "Learn to Teach Code - Web Development"
+    },
+    {
+      "id": 15712,
+      "title": "VfA - Web Development Fundamentals"
+    },
+    {
+      "id": 12615,
+      "title": "Full Stack Web Development"
+    },
+    {
+      "id": 18312,
+      "title": "Ruby: Building Command Line Applications"
+    },
+    {
+      "id": 17806,
+      "title": "Intro to Ruby"
+    },
+    {
+      "id": 16310,
+      "title": "Web Development Immersive Spring 2016"
+    },
+    {
+      "id": 20811,
+      "title": "Full Stack Community Bootcamp"
+    },
+    {
+      "id": 22083,
+      "title": "Web Development Immersive Winter 2016"
+    },
+    {
+      "id": 24219,
+      "title": "Web Development Immersive Q1 2017"
+    },
+    {
+      "id": 10415,
+      "title": "Web Development Fundamentals"
+    },
+    {
+      "id": 23144,
+      "title": "Full Stack Web Dev. With React"
+    },
+    {
+      "id": 25054,
+      "title": "Module 1 – Web Development Immersive 2.0"
+    },
+    {
+      "id": 26390,
+      "title": "Web Development Immersive 2.0 Fundamentals"
+    },
+    {
+      "id": 28005,
+      "title": "Full Stack Web Development V3"
+    },
+    {
+      "id": 28747,
+      "title": "Module 1 Alternative"
+    },
+    {
+      "id": 30107,
+      "title": "Full Stack Web Development V4"
+    },
+    {
+      "id": 31303,
+      "title": "Full Stack Web Development V5"
+    }
+  ]
+}
