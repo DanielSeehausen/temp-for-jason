@@ -19,7 +19,8 @@ def to_csv(rows, output="temp.csv"):
         writer.writerows(rows)
 
 def get(tier, id):
-    return requests.get(f"{endpoints[tier]}{id}").json()
+    endpoint = f'{endpoints[tier]}{id}'
+    return requests.get(endpoint).json()
 
 def parse_lesson_to_row(lesson):
     cid = lesson["canonical_id"]
