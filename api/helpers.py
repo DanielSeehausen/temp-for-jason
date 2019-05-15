@@ -28,7 +28,7 @@ def parse_lesson_to_row(lesson):
     content_type = lesson["content_type"]
     github = "https" + lesson["github_url"] if lesson["github_url"] else "MISSING DATA!"
     return [cid, title, c_name, content_type, github]
-    
+
 def get_url(lesson):
     github_url = "https" + lesson["github_url"] if lesson["github_url"] else "MISSING DATA!"
     return github_url

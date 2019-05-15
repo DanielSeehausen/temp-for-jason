@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from api_interface import *
+from api import *
 
 def main():
     l1_lectures = get_track_canonical_urls(40234)

@@ -3,19 +3,18 @@ LESSON: "https://learn.co/api/v1/curriculums/:id"
 TRACK:  "https://learn.co/api/v1/tracks/:id"
 BATCH:  "https://learn.co/api/v1/batches/:id"
 
-jonas: "This hierarchy is stored in a single inheritance table called
-curriculum. It houses Track -> Topic -> Unit -> Lessons. We unfortunately locked
-ourselves intro requiring all four levels of depth, but for topics and units the
-only relevant information is the title string and its parent."
+Hierarchy:
+Track -> Topic -> Unit -> Lessons
 
-================================================================================
-================================================================================
+------------------------------------------------------------------------
 
+JSON response track structure is as follows:
 
-Track structure is as follows:
+track.children : [ topics.children : [ units.children => lessons ] ]
 
-track.children => [topics.children => [units.children => lessons]]
+i.e.:
 
+```json
 track: {
   id: 25783,
   title: 'Module 4 – Web Development Immersive 2.0',
@@ -52,12 +51,13 @@ lesson: {
   children: [],
   github_url: '//github.com/learn-co-curriculum/some-useful-tools-for-writing-react'
 }
+```
 
-================================================================================
-================================================================================
+------------------------------------------------------------------------
 
-Specific Lesson Structure:
+Lesson Structure (is this from lesson endpoint then?):
 
+```json
 Specific Lesson: {
   "content_type": "Lab",
   "created_at": "2017-02-24T16:35:01.116-05:00",
@@ -101,3 +101,4 @@ Specific Lesson: {
     }
   ]
 }
+```
